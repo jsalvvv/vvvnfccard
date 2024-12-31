@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'card_builder/card_builder_screen.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -113,11 +113,11 @@ class _FeatureCard extends StatelessWidget {
   final String description;
 
   const _FeatureCard({
-    Key? key,
+    super.key,
     required this.icon,
     required this.title,
     required this.description,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

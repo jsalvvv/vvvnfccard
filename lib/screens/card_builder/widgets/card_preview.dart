@@ -4,7 +4,7 @@ import '../../../models/business_card.dart';
 import '../../../theme/app_theme.dart';
 
 class CardPreview extends StatelessWidget {
-  const CardPreview({Key? key}) : super(key: key);
+  const CardPreview({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -69,7 +69,7 @@ class CardPreview extends StatelessWidget {
 class _ModernTemplate extends StatelessWidget {
   final BusinessCard card;
 
-  const _ModernTemplate({Key? key, required this.card}) : super(key: key);
+  const _ModernTemplate({super.key, required this.card});
 
   @override
   Widget build(BuildContext context) {
@@ -148,7 +148,7 @@ class _ModernTemplate extends StatelessWidget {
 class _ClassicTemplate extends StatelessWidget {
   final BusinessCard card;
 
-  const _ClassicTemplate({Key? key, required this.card}) : super(key: key);
+  const _ClassicTemplate({super.key, required this.card});
 
   @override
   Widget build(BuildContext context) {
@@ -202,10 +202,10 @@ class _ContactInfo extends StatelessWidget {
   final String text;
 
   const _ContactInfo({
-    Key? key,
+    super.key,
     required this.icon,
     required this.text,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -230,7 +230,7 @@ class _ContactInfo extends StatelessWidget {
 class _NeonTemplate extends StatelessWidget {
   final BusinessCard card;
 
-  const _NeonTemplate({Key? key, required this.card}) : super(key: key);
+  const _NeonTemplate({super.key, required this.card});
 
   @override
   Widget build(BuildContext context) {
@@ -292,11 +292,11 @@ class _NeonContactInfo extends StatelessWidget {
   final Color color;
 
   const _NeonContactInfo({
-    Key? key,
+    super.key,
     required this.icon,
     required this.text,
     required this.color,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -322,7 +322,7 @@ class _NeonContactInfo extends StatelessWidget {
 class _GradientTemplate extends StatelessWidget {
   final BusinessCard card;
 
-  const _GradientTemplate({Key? key, required this.card}) : super(key: key);
+  const _GradientTemplate({super.key, required this.card});
 
   @override
   Widget build(BuildContext context) {
@@ -408,7 +408,7 @@ class _GradientTemplate extends StatelessWidget {
 class _SplitTemplate extends StatelessWidget {
   final BusinessCard card;
 
-  const _SplitTemplate({Key? key, required this.card}) : super(key: key);
+  const _SplitTemplate({super.key, required this.card});
 
   @override
   Widget build(BuildContext context) {
@@ -497,7 +497,7 @@ class _SplitTemplate extends StatelessWidget {
 class _MinimalistPlusTemplate extends StatelessWidget {
   final BusinessCard card;
 
-  const _MinimalistPlusTemplate({Key? key, required this.card}) : super(key: key);
+  const _MinimalistPlusTemplate({super.key, required this.card});
 
   @override
   Widget build(BuildContext context) {
@@ -593,7 +593,7 @@ class _MinimalistPlusTemplate extends StatelessWidget {
 class _CreativeTemplate extends StatelessWidget {
   final BusinessCard card;
 
-  const _CreativeTemplate({Key? key, required this.card}) : super(key: key);
+  const _CreativeTemplate({super.key, required this.card});
 
   @override
   Widget build(BuildContext context) {
@@ -692,10 +692,10 @@ class _ContactInfoLight extends StatelessWidget {
   final String text;
 
   const _ContactInfoLight({
-    Key? key,
+    super.key,
     required this.icon,
     required this.text,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -726,11 +726,11 @@ class _IconContact extends StatelessWidget {
   final Color color;
 
   const _IconContact({
-    Key? key,
+    super.key,
     required this.icon,
     required this.text,
     required this.color,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -757,11 +757,11 @@ class _CreativeContactInfo extends StatelessWidget {
   final Color color;
 
   const _CreativeContactInfo({
-    Key? key,
+    super.key,
     required this.icon,
     required this.text,
     required this.color,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import '../../../models/business_card.dart';
 
 class TemplateSelector extends StatelessWidget {
-  const TemplateSelector({Key? key}) : super(key: key);
+  const TemplateSelector({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -125,13 +125,13 @@ class _TemplateCard extends StatelessWidget {
   final Widget preview;
 
   const _TemplateCard({
-    Key? key,
+    super.key,
     required this.name,
     required this.template,
     required this.isSelected,
     required this.onTap,
     required this.preview,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
