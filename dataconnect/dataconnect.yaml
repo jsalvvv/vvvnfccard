@@ -1,11 +1,11 @@
 specVersion: "v1beta"
-serviceId: "vvvnfccard"
+serviceId: "vvvnetwork"
 location: "us-west1"
 schema:
   source: "./schema"
   datasource:
     postgresql:
-      database: "postgres"
+      database: "fdcdb"
       cloudSql:
         instanceId: "vvvnfccard-fdc"
       # schemaValidation: "COMPATIBLE"
