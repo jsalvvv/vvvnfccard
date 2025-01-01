@@ -1,5 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'dart:convert';
+import 'package:cloud_firestore/cloud_firestore.dart' show CollectionReference, DocumentReference, FirebaseFirestore;
 
 /// Configuration for the Firebase connector
 class ConnectorConfig {
