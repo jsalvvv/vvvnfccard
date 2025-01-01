@@ -69,7 +69,7 @@ class CardPreview extends StatelessWidget {
 class _ModernTemplate extends StatelessWidget {
   final BusinessCard card;
 
-  const _ModernTemplate({super.key, required this.card});
+  const _ModernTemplate({required this.card});
 
   @override
   Widget build(BuildContext context) {
@@ -148,7 +148,7 @@ class _ModernTemplate extends StatelessWidget {
 class _ClassicTemplate extends StatelessWidget {
   final BusinessCard card;
 
-  const _ClassicTemplate({super.key, required this.card});
+  const _ClassicTemplate({required this.card});
 
   @override
   Widget build(BuildContext context) {
@@ -202,7 +202,6 @@ class _ContactInfo extends StatelessWidget {
   final String text;
 
   const _ContactInfo({
-    super.key,
     required this.icon,
     required this.text,
   });
@@ -230,7 +229,7 @@ class _ContactInfo extends StatelessWidget {
 class _NeonTemplate extends StatelessWidget {
   final BusinessCard card;
 
-  const _NeonTemplate({super.key, required this.card});
+  const _NeonTemplate({required this.card});
 
   @override
   Widget build(BuildContext context) {
@@ -292,7 +291,6 @@ class _NeonContactInfo extends StatelessWidget {
   final Color color;
 
   const _NeonContactInfo({
-    super.key,
     required this.icon,
     required this.text,
     required this.color,
@@ -322,7 +320,7 @@ class _NeonContactInfo extends StatelessWidget {
 class _GradientTemplate extends StatelessWidget {
   final BusinessCard card;
 
-  const _GradientTemplate({super.key, required this.card});
+  const _GradientTemplate({required this.card});
 
   @override
   Widget build(BuildContext context) {
@@ -408,7 +406,7 @@ class _GradientTemplate extends StatelessWidget {
 class _SplitTemplate extends StatelessWidget {
   final BusinessCard card;
 
-  const _SplitTemplate({super.key, required this.card});
+  const _SplitTemplate({required this.card});
 
   @override
   Widget build(BuildContext context) {
@@ -497,7 +495,7 @@ class _SplitTemplate extends StatelessWidget {
 class _MinimalistPlusTemplate extends StatelessWidget {
   final BusinessCard card;
 
-  const _MinimalistPlusTemplate({super.key, required this.card});
+  const _MinimalistPlusTemplate({required this.card});
 
   @override
   Widget build(BuildContext context) {
@@ -593,7 +591,7 @@ class _MinimalistPlusTemplate extends StatelessWidget {
 class _CreativeTemplate extends StatelessWidget {
   final BusinessCard card;
 
-  const _CreativeTemplate({super.key, required this.card});
+  const _CreativeTemplate({required this.card});
 
   @override
   Widget build(BuildContext context) {
@@ -692,7 +690,6 @@ class _ContactInfoLight extends StatelessWidget {
   final String text;
 
   const _ContactInfoLight({
-    super.key,
     required this.icon,
     required this.text,
   });
@@ -726,7 +723,6 @@ class _IconContact extends StatelessWidget {
   final Color color;
 
   const _IconContact({
-    super.key,
     required this.icon,
     required this.text,
     required this.color,
@@ -757,7 +753,6 @@ class _CreativeContactInfo extends StatelessWidget {
   final Color color;
 
   const _CreativeContactInfo({
-    super.key,
     required this.icon,
     required this.text,
     required this.color,

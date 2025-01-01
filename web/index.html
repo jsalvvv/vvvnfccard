@@ -34,5 +34,24 @@
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
+  <!-- Firebase Configuration -->
+  <script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-analytics.js"></script>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyBU0ACTv0BaxPJnQLjU9-ZDX9NHflU7a6M",
+      authDomain: "vvvnfccard-4f67c.firebaseapp.com",
+      projectId: "vvvnfccard-4f67c",
+      storageBucket: "vvvnfccard-4f67c.firebasestorage.app",
+      messagingSenderId: "23312565833",
+      appId: "1:23312565833:web:d28a23317bd284eb7a2198",
+      measurementId: "G-1NWF0WF7Z6"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 </body>
 </html>

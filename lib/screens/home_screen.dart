@@ -113,7 +113,6 @@ class _FeatureCard extends StatelessWidget {
   final String description;
 
   const _FeatureCard({
-    super.key,
     required this.icon,
     required this.title,
     required this.description,

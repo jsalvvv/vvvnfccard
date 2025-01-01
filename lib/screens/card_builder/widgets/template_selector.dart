@@ -125,7 +125,6 @@ class _TemplateCard extends StatelessWidget {
   final Widget preview;
 
   const _TemplateCard({
-    super.key,
     required this.name,
     required this.template,
     required this.isSelected,
